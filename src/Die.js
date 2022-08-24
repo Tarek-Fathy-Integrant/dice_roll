@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-
+import './Die.css'
 class Die extends Component {
-    constructor(props) {
-        super(props);
-
-    }
+    
     render() {
-        return <div>
-
-        </div>
+        const {face} = this.props;
+        return <i class={`Die fa-solid fa-dice-${face}`}></i>
     }
 }
 

@@ -5,7 +5,8 @@ import './App.css';
 class App extends Component {
   render() {
     return <div className="App">
-      <Die />
+      <Die face="five"/>
+      <Die face="three"/>
     </div>
   }
 }
