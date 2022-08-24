@@ -4,7 +4,7 @@ class Die extends Component {
     
     render() {
         const {face} = this.props;
-        return <i class={`Die fa-solid fa-dice-${face}`}></i>
+        return <i className = {`Die fa-solid fa-dice-${face}`}></i>
     }
 }
 
